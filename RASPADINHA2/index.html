@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scratch Card</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <h2 class="main-heading">Sorteio</h2>
+
+    <div class="scratch-container">
+      <div class="scratch-card">
+        <img src="img/Sorteio-unscreen (1).gif" alt="Background Image" class="hidden-image2" />
+        <img src="img/Sorteio.svg" alt="Hidden Image" class="hidden-image" />
+        <p class="hidden-text">Você ganhou: <span>R$10,00</span></p>
+      </div>
+      <canvas id="scratch-card1" width="800" height="800"></canvas>
+    </div>
+    <div id="reveal-text" class="reveal-text hidden">
+      <p>Parabéns! Você acaba de ganhar <span>10</span> reais.</p>
+      <button id="action-button">Fale com a gente!</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 <span>RASPADINHA GRATÍS</span>. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="/script/script.js"></script>
+</body>
+</html>

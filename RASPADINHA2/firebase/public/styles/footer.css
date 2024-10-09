@@ -1,0 +1,40 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: fixed; /* Torna o footer fixo na tela */
+    bottom: 0; /* Posiciona o footer na parte inferior da tela */
+    width: 100%; /* Faz o footer ocupar toda a largura da tela */
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra mais pronunciada ao footer */
+    z-index: 1000; /* Garante que o footer fique acima do restante do conteúdo */
+  }
+  
+  .footer p {
+    margin: 5px 0; /* Margens pequenas para o parágrafo */
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .footer p span {
+    color: #ff4460;
+    font-weight: 900;
+  }
+  
+  .footer a {
+    color: #ff4460;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 480px) {
+
+    .footer p {
+        font-size: 12px;
+        
+    }
+  }
